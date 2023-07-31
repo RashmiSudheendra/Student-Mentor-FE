@@ -20,7 +20,7 @@ function Addmentor() {
       qualification
     }
     try {
-      let res = await axios.post(`https://student-mentor-be-g4mt.onrender.com`, data)
+      let res = await axios.post(`https://student-mentor-be-g4mt.onrender.com/createMentor`, data)
       if (res.status === 201) {
         navigate('/allMentors')
       }
