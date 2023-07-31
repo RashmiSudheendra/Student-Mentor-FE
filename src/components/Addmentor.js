@@ -53,7 +53,7 @@ function Addmentor() {
               Submit
             </Button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <Link style={{ textDecoration: 'none' }} to='/showAllStudents'>
+            <Link style={{ textDecoration: 'none' }} to='/allMentors'>
               <Button variant='dark'>
                 Back
               </Button>
